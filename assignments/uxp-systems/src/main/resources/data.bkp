@@ -1,0 +1,6 @@
+----into user_entity (user_id, user_name, password, active) values (10, 'user1@testdomain.com', 'password1', true);
+--into user_entity (user_id, user_name, password, active) values (20, 'user2@testdomain.com', 'password2', true);
+--into user_entity (user_id, user_name, password, active) values (30, 'user3@testdomain.com', 'password3', true);
+--into user_entity (user_id, user_name, password, active) values (40, 'user4@testdomain.com', 'password4', true);
+--into user_entity (user_id, user_name, password, active) values (50, 'user5@testdomain.com', 'password5', true);
+--commit;

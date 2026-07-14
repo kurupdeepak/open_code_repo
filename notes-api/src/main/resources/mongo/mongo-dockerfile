@@ -1,0 +1,10 @@
+docker run --name mongodb -p 27017:27017 -d mongodb/mongodb-community-server:latest
+
+brew install mongosh
+
+mongosh 
+db.runCommand(
+   {
+      hello: 1
+   }
+)
